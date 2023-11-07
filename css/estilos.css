@@ -9,7 +9,7 @@ body {
 }
 
 .contenedor {
-    padding: 60px 0;
+    padding: 30px 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #642a73;
+    color: #57acbf;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -27,13 +27,9 @@ body {
 
 header {
     width: 100%;
-    height: 600px;
-    background: #bc4e9c;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 530px;
+    background: #57acbf;    background: -webkit-linear-gradient(to right, #57acbf(340, 95%, 50%, 0.459), #57acbf(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    background: linear-gradient(to right, #57acbf(340, 95%, 50%, 0.459), #57acbf(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -45,7 +41,7 @@ nav{
 }
 
 nav > a{
-    color:#fff;
+    color:#1e1515;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -62,7 +58,7 @@ header .textos-header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
 }
 
 .textos-header h1{
@@ -159,7 +155,7 @@ main .sobre-nosotros{
     top: 0;
     transform: scale(0);
     background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
+    transition: transform .8s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +182,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #4d0686;
+    background: #57acbf;
     display: flex;
     width: 46%;
     height: 200px;
@@ -250,7 +246,7 @@ main .sobre-nosotros{
 /* footer */
 
 footer{
-    background: #414141;
+    background: #292828;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -271,7 +267,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #57acbf;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
